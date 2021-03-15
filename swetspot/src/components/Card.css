@@ -1,0 +1,40 @@
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.card-wrapper {
+  cursor: pointer;
+
+  width: 350px;
+  margin-left: 50px;
+  overflow: hidden;
+}
+.card-wrapper:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 2px 0px;
+}
+.card-title {
+  font-size: 22px;
+  text-align: center;
+}
+.card-body {
+  font-size: 20px;
+  text-align: center;
+}
+.card-button {
+  text-align: center;
+}
+.card-button h3 {
+  color: rgb(179, 5, 33);
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  .cards-container {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
